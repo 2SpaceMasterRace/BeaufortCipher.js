@@ -2,6 +2,7 @@
 // - Uses the Beaufort cipher's method of symmetric encryption/decryption using the table
 // - Uses the Autokey cipher's method of expanding the encryption key with the plaintext
 // - Base64 encodes the resulting ASCII ciphertext for easier display
+
 const {Base64} = require('js-base64');
 
 const beaufortAutokey = (key) => {
@@ -44,9 +45,7 @@ const beaufortAutokey = (key) => {
   return { encrypt, decrypt };
 };
 
-// Testing:
-
-const key = 'daniildubov';
-const plaintext = 'Dw4pSScnIx8dHTMGCsO3AMO8w7bDrzbDvREABMO8BcOMJsO8w7vDnwEhAsO9CSkNw5vDvzfDssO5w5shCMOyw5sCJQvDjAoBJcORADICw73DkQARAC3DjAfDvcONI8O/w7wpw6/DvcObNAXDugTDlAQAw4w0w7EEw4cjw7sALMO5CsO+w5s3w60KABIKAATDuggAw40AL8Obw6wAw47Dr8O7BsO8BQ0AAxEEw7wUAgXDugXDuQ==';
+const key = 'keyword for the encoded text goes here';
+const plaintext =' encoded text goes here ' ;
 const cipher = beaufortAutokey(key);
 console.log(cipher.decrypt(plaintext))
