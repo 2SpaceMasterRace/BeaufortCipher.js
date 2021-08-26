@@ -7,15 +7,4 @@ clone this repo to your machine and make sure you have installed NodeJS and NPM 
 
 base64 is a robust base64 encoder/decoder that is written in JavaScript. The base64-encoding and -decoding algorithms it uses are fully RFC 4648 compliant.
 
-Open Command Prompt on project folder and type the following
-
-```sh
-# Install dependencies
-
-npm install base-64
-
-```
-
 once you have the keyword, input it and the text you want to decode,the decoded text should appear on console
-
-
