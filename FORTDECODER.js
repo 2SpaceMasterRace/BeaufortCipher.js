@@ -1,7 +1,7 @@
-// - Expands the 26x26 table to 256x256 to encrypt ASCII text
-// - Uses the Beaufort cipher's method of symmetric encryption/decryption using the table
-// - Uses the Autokey cipher's method of expanding the encryption key with the plaintext
-// - Base64 encodes the resulting ASCII ciphertext for easier display
+//  Expands the 26x26 table to 256x256 to encrypt ASCII text
+//  Uses the Beaufort cipher's method of symmetric encryption/decryption using the table
+//  Uses the Autokey cipher's method of expanding the encryption key with the plaintext
+//  Base64 encodes the resulting ASCII ciphertext for easier display
 
 const {Base64} = require('js-base64');
 
