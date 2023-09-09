@@ -1,5 +1,5 @@
 # BeaufortCipher.js
-Decoding the Beaufort - Autokey cipher with Base64 encoded ASCII output for Puzzle 2 of HACKMIT 2021
+Decoding the Beaufort - Autokey cipher with Base64 encoded ASCII output for Puzzle 2 of HackMIT 2021
 
 ## Getting Started
 
